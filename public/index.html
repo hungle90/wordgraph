@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graphical Definitions</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <h1>Graphical definitions</h1>
+        <p class="subtitle">An interactive force-directed graph showing how English words define one another.</p>
+        <div class="stats" id="global-stats"></div>
+      </header>
+
+      <section class="controls">
+        <input id="search-input" type="search" placeholder="Search a word (e.g. language)" />
+        <button id="search-btn">Find</button>
+        <button id="reset-btn" class="ghost">Reset view</button>
+      </section>
+
+      <section id="status" class="status">Loading graph data...</section>
+
+      <section class="content" id="content" hidden>
+        <div class="graph-card">
+          <svg id="graph"></svg>
+          <div id="tooltip" class="tooltip" hidden></div>
+        </div>
+
+        <aside class="detail" id="detail-panel">
+          <h2>Word details</h2>
+          <p class="muted">Click a node to inspect its definition and neighbors.</p>
+        </aside>
+      </section>
+
+      <section class="insights" id="insights" hidden></section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

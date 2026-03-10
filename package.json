@@ -1,0 +1,10 @@
+{
+  "name": "graphical-definitions",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:data": "node scripts/build-graph-data.mjs",
+    "start": "python3 -m http.server 4173 --directory public"
+  }
+}
