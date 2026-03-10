@@ -1,0 +1,2877 @@
+{
+  "meta": {
+    "definitionSource": "mock",
+    "generatedAt": "2026-03-10T07:50:06.251Z",
+    "nodeCount": 99,
+    "linkCount": 296
+  },
+  "nodes": [
+    {
+      "id": "language",
+      "freqRank": 1,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "others",
+        "war",
+        "word"
+      ],
+      "outgoingNeighbors": [
+        "communication",
+        "people",
+        "system"
+      ],
+      "definition": "a system of words used for communication between people"
+    },
+    {
+      "id": "word",
+      "freqRank": 2,
+      "inDegree": 2,
+      "outDegree": 2,
+      "incomingNeighbors": [
+        "girl",
+        "level"
+      ],
+      "outgoingNeighbors": [
+        "communication",
+        "language"
+      ],
+      "definition": "a unit of language that carries meaning in communication"
+    },
+    {
+      "id": "system",
+      "freqRank": 3,
+      "inDegree": 4,
+      "outDegree": 1,
+      "incomingNeighbors": [
+        "guy",
+        "language",
+        "office",
+        "party"
+      ],
+      "outgoingNeighbors": [
+        "work"
+      ],
+      "definition": "a set of connected parts that work together for a purpose"
+    },
+    {
+      "id": "communication",
+      "freqRank": 4,
+      "inDegree": 5,
+      "outDegree": 2,
+      "incomingNeighbors": [
+        "door",
+        "language",
+        "moment",
+        "result",
+        "word"
+      ],
+      "outgoingNeighbors": [
+        "information",
+        "people"
+      ],
+      "definition": "the act of sharing information between people"
+    },
+    {
+      "id": "people",
+      "freqRank": 5,
+      "inDegree": 7,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "air",
+        "change",
+        "communication",
+        "community",
+        "government",
+        "health",
+        "language"
+      ],
+      "outgoingNeighbors": [
+        "problem",
+        "program",
+        "world"
+      ],
+      "definition": "people is related to world problem and program in daily life"
+    },
+    {
+      "id": "time",
+      "freqRank": 6,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "morning",
+        "person",
+        "teacher"
+      ],
+      "outgoingNeighbors": [
+        "hand",
+        "question",
+        "school"
+      ],
+      "definition": "time is related to school hand and question in daily life"
+    },
+    {
+      "id": "year",
+      "freqRank": 7,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "art",
+        "force",
+        "reason"
+      ],
+      "outgoingNeighbors": [
+        "part",
+        "state",
+        "work"
+      ],
+      "definition": "year is related to state part and work in daily life"
+    },
+    {
+      "id": "day",
+      "freqRank": 8,
+      "inDegree": 1,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "war"
+      ],
+      "outgoingNeighbors": [
+        "family",
+        "government",
+        "place"
+      ],
+      "definition": "day is related to family place and government in daily life"
+    },
+    {
+      "id": "thing",
+      "freqRank": 9,
+      "inDegree": 1,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "girl"
+      ],
+      "outgoingNeighbors": [
+        "case",
+        "number",
+        "student"
+      ],
+      "definition": "thing is related to student case and number in daily life"
+    },
+    {
+      "id": "man",
+      "freqRank": 10,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "guy",
+        "party"
+      ],
+      "outgoingNeighbors": [
+        "group",
+        "night",
+        "week"
+      ],
+      "definition": "man is related to group week and night in daily life"
+    },
+    {
+      "id": "woman",
+      "freqRank": 11,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "moment",
+        "result"
+      ],
+      "outgoingNeighbors": [
+        "company",
+        "country",
+        "point"
+      ],
+      "definition": "woman is related to country company and point in daily life"
+    },
+    {
+      "id": "child",
+      "freqRank": 12,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "air",
+        "change"
+      ],
+      "outgoingNeighbors": [
+        "home",
+        "problem",
+        "program"
+      ],
+      "definition": "child is related to problem program and home in daily life"
+    },
+    {
+      "id": "world",
+      "freqRank": 13,
+      "inDegree": 4,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "history",
+        "morning",
+        "people",
+        "teacher"
+      ],
+      "outgoingNeighbors": [
+        "hand",
+        "question",
+        "water"
+      ],
+      "definition": "world is related to hand question and water in daily life"
+    },
+    {
+      "id": "school",
+      "freqRank": 14,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "force",
+        "reason",
+        "time"
+      ],
+      "outgoingNeighbors": [
+        "part",
+        "room",
+        "work"
+      ],
+      "definition": "school is related to part work and room in daily life"
+    },
+    {
+      "id": "state",
+      "freqRank": 15,
+      "inDegree": 1,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "year"
+      ],
+      "outgoingNeighbors": [
+        "government",
+        "mother",
+        "place"
+      ],
+      "definition": "state is related to place government and mother in daily life"
+    },
+    {
+      "id": "family",
+      "freqRank": 16,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "day",
+        "girl"
+      ],
+      "outgoingNeighbors": [
+        "area",
+        "case",
+        "number"
+      ],
+      "definition": "family is related to case number and area in daily life"
+    },
+    {
+      "id": "student",
+      "freqRank": 17,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "education",
+        "guy",
+        "thing"
+      ],
+      "outgoingNeighbors": [
+        "money",
+        "night",
+        "week"
+      ],
+      "definition": "student is related to week night and money in daily life"
+    },
+    {
+      "id": "group",
+      "freqRank": 18,
+      "inDegree": 4,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "community",
+        "government",
+        "man",
+        "moment"
+      ],
+      "outgoingNeighbors": [
+        "company",
+        "point",
+        "story"
+      ],
+      "definition": "group is related to company point and story in daily life"
+    },
+    {
+      "id": "country",
+      "freqRank": 19,
+      "inDegree": 4,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "air",
+        "government",
+        "history",
+        "woman"
+      ],
+      "outgoingNeighbors": [
+        "fact",
+        "home",
+        "program"
+      ],
+      "definition": "country is related to program home and fact in daily life"
+    },
+    {
+      "id": "problem",
+      "freqRank": 20,
+      "inDegree": 4,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "child",
+        "people",
+        "research",
+        "teacher"
+      ],
+      "outgoingNeighbors": [
+        "month",
+        "question",
+        "water"
+      ],
+      "definition": "problem is related to question water and month in daily life"
+    },
+    {
+      "id": "hand",
+      "freqRank": 21,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "force",
+        "time",
+        "world"
+      ],
+      "outgoingNeighbors": [
+        "lot",
+        "room",
+        "work"
+      ],
+      "definition": "hand is related to work room and lot in daily life"
+    },
+    {
+      "id": "part",
+      "freqRank": 22,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "school",
+        "year"
+      ],
+      "outgoingNeighbors": [
+        "government",
+        "mother",
+        "right"
+      ],
+      "definition": "part is related to government mother and right in daily life"
+    },
+    {
+      "id": "place",
+      "freqRank": 23,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "community",
+        "day",
+        "state"
+      ],
+      "outgoingNeighbors": [
+        "area",
+        "number",
+        "study"
+      ],
+      "definition": "place is related to number area and study in daily life"
+    },
+    {
+      "id": "case",
+      "freqRank": 24,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "family",
+        "thing"
+      ],
+      "outgoingNeighbors": [
+        "book",
+        "money",
+        "night"
+      ],
+      "definition": "case is related to night money and book in daily life"
+    },
+    {
+      "id": "week",
+      "freqRank": 25,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "man",
+        "student"
+      ],
+      "outgoingNeighbors": [
+        "eye",
+        "point",
+        "story"
+      ],
+      "definition": "week is related to point story and eye in daily life"
+    },
+    {
+      "id": "company",
+      "freqRank": 26,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "group",
+        "woman"
+      ],
+      "outgoingNeighbors": [
+        "fact",
+        "home",
+        "job"
+      ],
+      "definition": "company is related to home fact and job in daily life"
+    },
+    {
+      "id": "program",
+      "freqRank": 27,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "child",
+        "country",
+        "people"
+      ],
+      "outgoingNeighbors": [
+        "business",
+        "month",
+        "water"
+      ],
+      "definition": "program is related to water month and business in daily life"
+    },
+    {
+      "id": "question",
+      "freqRank": 28,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "problem",
+        "time",
+        "world"
+      ],
+      "outgoingNeighbors": [
+        "issue",
+        "lot",
+        "room"
+      ],
+      "definition": "question is related to room lot and issue in daily life"
+    },
+    {
+      "id": "work",
+      "freqRank": 29,
+      "inDegree": 6,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "business",
+        "community",
+        "hand",
+        "school",
+        "system",
+        "year"
+      ],
+      "outgoingNeighbors": [
+        "mother",
+        "right",
+        "side"
+      ],
+      "definition": "work is related to mother right and side in daily life"
+    },
+    {
+      "id": "government",
+      "freqRank": 30,
+      "inDegree": 3,
+      "outDegree": 5,
+      "incomingNeighbors": [
+        "day",
+        "part",
+        "state"
+      ],
+      "outgoingNeighbors": [
+        "country",
+        "group",
+        "law",
+        "people",
+        "power"
+      ],
+      "definition": "a group of people with power to make law for a country"
+    },
+    {
+      "id": "number",
+      "freqRank": 31,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "family",
+        "place",
+        "thing"
+      ],
+      "outgoingNeighbors": [
+        "book",
+        "head",
+        "money"
+      ],
+      "definition": "number is related to money book and head in daily life"
+    },
+    {
+      "id": "night",
+      "freqRank": 32,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "case",
+        "man",
+        "student"
+      ],
+      "outgoingNeighbors": [
+        "eye",
+        "house",
+        "story"
+      ],
+      "definition": "night is related to story eye and house in daily life"
+    },
+    {
+      "id": "point",
+      "freqRank": 33,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "group",
+        "week",
+        "woman"
+      ],
+      "outgoingNeighbors": [
+        "fact",
+        "job",
+        "service"
+      ],
+      "definition": "point is related to fact job and service in daily life"
+    },
+    {
+      "id": "home",
+      "freqRank": 34,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "child",
+        "company",
+        "country"
+      ],
+      "outgoingNeighbors": [
+        "business",
+        "friend",
+        "month"
+      ],
+      "definition": "home is related to month business and friend in daily life"
+    },
+    {
+      "id": "water",
+      "freqRank": 35,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "problem",
+        "program",
+        "world"
+      ],
+      "outgoingNeighbors": [
+        "issue",
+        "lot",
+        "power"
+      ],
+      "definition": "water is related to lot issue and power in daily life"
+    },
+    {
+      "id": "room",
+      "freqRank": 36,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "hand",
+        "question",
+        "school"
+      ],
+      "outgoingNeighbors": [
+        "hour",
+        "right",
+        "side"
+      ],
+      "definition": "room is related to right side and hour in daily life"
+    },
+    {
+      "id": "mother",
+      "freqRank": 37,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "part",
+        "state",
+        "work"
+      ],
+      "outgoingNeighbors": [
+        "game",
+        "kind",
+        "study"
+      ],
+      "definition": "mother is related to study kind and game in daily life"
+    },
+    {
+      "id": "area",
+      "freqRank": 38,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "family",
+        "place"
+      ],
+      "outgoingNeighbors": [
+        "book",
+        "head",
+        "line"
+      ],
+      "definition": "area is related to book head and line in daily life"
+    },
+    {
+      "id": "money",
+      "freqRank": 39,
+      "inDegree": 4,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "business",
+        "case",
+        "number",
+        "student"
+      ],
+      "outgoingNeighbors": [
+        "end",
+        "eye",
+        "house"
+      ],
+      "definition": "money is related to eye house and end in daily life"
+    },
+    {
+      "id": "story",
+      "freqRank": 40,
+      "inDegree": 4,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "group",
+        "history",
+        "night",
+        "week"
+      ],
+      "outgoingNeighbors": [
+        "job",
+        "member",
+        "service"
+      ],
+      "definition": "story is related to job service and member in daily life"
+    },
+    {
+      "id": "fact",
+      "freqRank": 41,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "company",
+        "country",
+        "point"
+      ],
+      "outgoingNeighbors": [
+        "business",
+        "friend",
+        "law"
+      ],
+      "definition": "fact is related to business friend and law in daily life"
+    },
+    {
+      "id": "month",
+      "freqRank": 42,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "home",
+        "problem",
+        "program"
+      ],
+      "outgoingNeighbors": [
+        "car",
+        "issue",
+        "power"
+      ],
+      "definition": "month is related to issue power and car in daily life"
+    },
+    {
+      "id": "lot",
+      "freqRank": 43,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "hand",
+        "question",
+        "water"
+      ],
+      "outgoingNeighbors": [
+        "city",
+        "hour",
+        "side"
+      ],
+      "definition": "lot is related to side hour and city in daily life"
+    },
+    {
+      "id": "right",
+      "freqRank": 44,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "part",
+        "room",
+        "work"
+      ],
+      "outgoingNeighbors": [
+        "community",
+        "game",
+        "kind"
+      ],
+      "definition": "right is related to kind game and community in daily life"
+    },
+    {
+      "id": "study",
+      "freqRank": 45,
+      "inDegree": 4,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "education",
+        "mother",
+        "place",
+        "research"
+      ],
+      "outgoingNeighbors": [
+        "head",
+        "line",
+        "name"
+      ],
+      "definition": "study is related to head line and name in daily life"
+    },
+    {
+      "id": "book",
+      "freqRank": 46,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "area",
+        "case",
+        "number"
+      ],
+      "outgoingNeighbors": [
+        "end",
+        "house",
+        "president"
+      ],
+      "definition": "book is related to house end and president in daily life"
+    },
+    {
+      "id": "eye",
+      "freqRank": 47,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "money",
+        "night",
+        "week"
+      ],
+      "outgoingNeighbors": [
+        "member",
+        "service",
+        "team"
+      ],
+      "definition": "eye is related to service member and team in daily life"
+    },
+    {
+      "id": "job",
+      "freqRank": 48,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "company",
+        "point",
+        "story"
+      ],
+      "outgoingNeighbors": [
+        "friend",
+        "law",
+        "minute"
+      ],
+      "definition": "job is related to friend law and minute in daily life"
+    },
+    {
+      "id": "business",
+      "freqRank": 49,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "fact",
+        "home",
+        "program"
+      ],
+      "outgoingNeighbors": [
+        "money",
+        "service",
+        "work"
+      ],
+      "definition": "organized work to provide service and make money"
+    },
+    {
+      "id": "issue",
+      "freqRank": 50,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "month",
+        "question",
+        "water"
+      ],
+      "outgoingNeighbors": [
+        "city",
+        "hour",
+        "kid"
+      ],
+      "definition": "issue is related to hour city and kid in daily life"
+    },
+    {
+      "id": "side",
+      "freqRank": 51,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "lot",
+        "room",
+        "work"
+      ],
+      "outgoingNeighbors": [
+        "body",
+        "community",
+        "game"
+      ],
+      "definition": "side is related to game community and body in daily life"
+    },
+    {
+      "id": "kind",
+      "freqRank": 52,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "mother",
+        "right"
+      ],
+      "outgoingNeighbors": [
+        "information",
+        "line",
+        "name"
+      ],
+      "definition": "kind is related to line name and information in daily life"
+    },
+    {
+      "id": "head",
+      "freqRank": 53,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "area",
+        "number",
+        "study"
+      ],
+      "outgoingNeighbors": [
+        "back",
+        "end",
+        "president"
+      ],
+      "definition": "head is related to end president and back in daily life"
+    },
+    {
+      "id": "house",
+      "freqRank": 54,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "book",
+        "money",
+        "night"
+      ],
+      "outgoingNeighbors": [
+        "member",
+        "parent",
+        "team"
+      ],
+      "definition": "house is related to member team and parent in daily life"
+    },
+    {
+      "id": "service",
+      "freqRank": 55,
+      "inDegree": 4,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "business",
+        "eye",
+        "point",
+        "story"
+      ],
+      "outgoingNeighbors": [
+        "face",
+        "law",
+        "minute"
+      ],
+      "definition": "service is related to law minute and face in daily life"
+    },
+    {
+      "id": "friend",
+      "freqRank": 56,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "fact",
+        "home",
+        "job"
+      ],
+      "outgoingNeighbors": [
+        "car",
+        "idea",
+        "others"
+      ],
+      "definition": "friend is related to car idea and others in daily life"
+    },
+    {
+      "id": "power",
+      "freqRank": 57,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "government",
+        "month",
+        "water"
+      ],
+      "outgoingNeighbors": [
+        "city",
+        "kid",
+        "level"
+      ],
+      "definition": "power is related to city kid and level in daily life"
+    },
+    {
+      "id": "hour",
+      "freqRank": 58,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "issue",
+        "lot",
+        "room"
+      ],
+      "outgoingNeighbors": [
+        "body",
+        "community",
+        "office"
+      ],
+      "definition": "hour is related to community body and office in daily life"
+    },
+    {
+      "id": "game",
+      "freqRank": 59,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "mother",
+        "right",
+        "side"
+      ],
+      "outgoingNeighbors": [
+        "door",
+        "information",
+        "name"
+      ],
+      "definition": "game is related to name information and door in daily life"
+    },
+    {
+      "id": "line",
+      "freqRank": 60,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "area",
+        "kind",
+        "study"
+      ],
+      "outgoingNeighbors": [
+        "back",
+        "health",
+        "president"
+      ],
+      "definition": "line is related to president back and health in daily life"
+    },
+    {
+      "id": "end",
+      "freqRank": 61,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "book",
+        "head",
+        "money"
+      ],
+      "outgoingNeighbors": [
+        "parent",
+        "person",
+        "team"
+      ],
+      "definition": "end is related to team parent and person in daily life"
+    },
+    {
+      "id": "member",
+      "freqRank": 62,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "eye",
+        "house",
+        "story"
+      ],
+      "outgoingNeighbors": [
+        "art",
+        "face",
+        "minute"
+      ],
+      "definition": "member is related to minute face and art in daily life"
+    },
+    {
+      "id": "law",
+      "freqRank": 63,
+      "inDegree": 4,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "fact",
+        "government",
+        "job",
+        "service"
+      ],
+      "outgoingNeighbors": [
+        "idea",
+        "others",
+        "war"
+      ],
+      "definition": "law is related to idea others and war in daily life"
+    },
+    {
+      "id": "car",
+      "freqRank": 64,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "friend",
+        "month"
+      ],
+      "outgoingNeighbors": [
+        "history",
+        "kid",
+        "level"
+      ],
+      "definition": "car is related to kid level and history in daily life"
+    },
+    {
+      "id": "city",
+      "freqRank": 65,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "issue",
+        "lot",
+        "power"
+      ],
+      "outgoingNeighbors": [
+        "body",
+        "office",
+        "party"
+      ],
+      "definition": "city is related to body office and party in daily life"
+    },
+    {
+      "id": "community",
+      "freqRank": 66,
+      "inDegree": 3,
+      "outDegree": 4,
+      "incomingNeighbors": [
+        "hour",
+        "right",
+        "side"
+      ],
+      "outgoingNeighbors": [
+        "group",
+        "people",
+        "place",
+        "work"
+      ],
+      "definition": "a group of people in one place sharing work and values"
+    },
+    {
+      "id": "name",
+      "freqRank": 67,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "game",
+        "kind",
+        "study"
+      ],
+      "outgoingNeighbors": [
+        "back",
+        "change",
+        "health"
+      ],
+      "definition": "name is related to back health and change in daily life"
+    },
+    {
+      "id": "president",
+      "freqRank": 68,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "book",
+        "head",
+        "line"
+      ],
+      "outgoingNeighbors": [
+        "morning",
+        "parent",
+        "person"
+      ],
+      "definition": "president is related to parent person and morning in daily life"
+    },
+    {
+      "id": "team",
+      "freqRank": 69,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "end",
+        "eye",
+        "house"
+      ],
+      "outgoingNeighbors": [
+        "art",
+        "face",
+        "reason"
+      ],
+      "definition": "team is related to face art and reason in daily life"
+    },
+    {
+      "id": "minute",
+      "freqRank": 70,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "job",
+        "member",
+        "service"
+      ],
+      "outgoingNeighbors": [
+        "others",
+        "research",
+        "war"
+      ],
+      "definition": "minute is related to others war and research in daily life"
+    },
+    {
+      "id": "idea",
+      "freqRank": 71,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "friend",
+        "law"
+      ],
+      "outgoingNeighbors": [
+        "girl",
+        "history",
+        "level"
+      ],
+      "definition": "idea is related to level history and girl in daily life"
+    },
+    {
+      "id": "kid",
+      "freqRank": 72,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "car",
+        "issue",
+        "power"
+      ],
+      "outgoingNeighbors": [
+        "guy",
+        "office",
+        "party"
+      ],
+      "definition": "kid is related to office party and guy in daily life"
+    },
+    {
+      "id": "body",
+      "freqRank": 73,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "city",
+        "hour",
+        "side"
+      ],
+      "outgoingNeighbors": [
+        "door",
+        "moment",
+        "result"
+      ],
+      "definition": "body is related to door result and moment in daily life"
+    },
+    {
+      "id": "information",
+      "freqRank": 74,
+      "inDegree": 4,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "communication",
+        "game",
+        "kind",
+        "research"
+      ],
+      "outgoingNeighbors": [
+        "air",
+        "change",
+        "health"
+      ],
+      "definition": "information is related to health change and air in daily life"
+    },
+    {
+      "id": "back",
+      "freqRank": 75,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "head",
+        "line",
+        "name"
+      ],
+      "outgoingNeighbors": [
+        "morning",
+        "person",
+        "teacher"
+      ],
+      "definition": "back is related to person morning and teacher in daily life"
+    },
+    {
+      "id": "parent",
+      "freqRank": 76,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "end",
+        "house",
+        "president"
+      ],
+      "outgoingNeighbors": [
+        "art",
+        "force",
+        "reason"
+      ],
+      "definition": "parent is related to art reason and force in daily life"
+    },
+    {
+      "id": "face",
+      "freqRank": 77,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "member",
+        "service",
+        "team"
+      ],
+      "outgoingNeighbors": [
+        "education",
+        "research",
+        "war"
+      ],
+      "definition": "face is related to war research and education in daily life"
+    },
+    {
+      "id": "others",
+      "freqRank": 78,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "friend",
+        "law",
+        "minute"
+      ],
+      "outgoingNeighbors": [
+        "girl",
+        "history",
+        "language"
+      ],
+      "definition": "others is related to history girl and language in daily life"
+    },
+    {
+      "id": "level",
+      "freqRank": 79,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "car",
+        "idea",
+        "power"
+      ],
+      "outgoingNeighbors": [
+        "guy",
+        "party",
+        "word"
+      ],
+      "definition": "level is related to party guy and word in daily life"
+    },
+    {
+      "id": "office",
+      "freqRank": 80,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "city",
+        "hour",
+        "kid"
+      ],
+      "outgoingNeighbors": [
+        "moment",
+        "result",
+        "system"
+      ],
+      "definition": "office is related to result moment and system in daily life"
+    },
+    {
+      "id": "door",
+      "freqRank": 81,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "body",
+        "game"
+      ],
+      "outgoingNeighbors": [
+        "air",
+        "change",
+        "communication"
+      ],
+      "definition": "door is related to change air and communication in daily life"
+    },
+    {
+      "id": "health",
+      "freqRank": 82,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "information",
+        "line",
+        "name"
+      ],
+      "outgoingNeighbors": [
+        "morning",
+        "people",
+        "teacher"
+      ],
+      "definition": "health is related to morning teacher and people in daily life"
+    },
+    {
+      "id": "person",
+      "freqRank": 83,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "back",
+        "end",
+        "president"
+      ],
+      "outgoingNeighbors": [
+        "force",
+        "reason",
+        "time"
+      ],
+      "definition": "person is related to reason force and time in daily life"
+    },
+    {
+      "id": "art",
+      "freqRank": 84,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "member",
+        "parent",
+        "team"
+      ],
+      "outgoingNeighbors": [
+        "education",
+        "research",
+        "year"
+      ],
+      "definition": "art is related to research education and year in daily life"
+    },
+    {
+      "id": "war",
+      "freqRank": 85,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "face",
+        "law",
+        "minute"
+      ],
+      "outgoingNeighbors": [
+        "day",
+        "girl",
+        "language"
+      ],
+      "definition": "war is related to girl language and day in daily life"
+    },
+    {
+      "id": "history",
+      "freqRank": 86,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "car",
+        "idea",
+        "others"
+      ],
+      "outgoingNeighbors": [
+        "country",
+        "story",
+        "world"
+      ],
+      "definition": "the story of past events that shape a country and world"
+    },
+    {
+      "id": "party",
+      "freqRank": 87,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "city",
+        "kid",
+        "level"
+      ],
+      "outgoingNeighbors": [
+        "man",
+        "moment",
+        "system"
+      ],
+      "definition": "party is related to moment system and man in daily life"
+    },
+    {
+      "id": "result",
+      "freqRank": 88,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "body",
+        "office"
+      ],
+      "outgoingNeighbors": [
+        "air",
+        "communication",
+        "woman"
+      ],
+      "definition": "result is related to air communication and woman in daily life"
+    },
+    {
+      "id": "change",
+      "freqRank": 89,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "door",
+        "information",
+        "name"
+      ],
+      "outgoingNeighbors": [
+        "child",
+        "people",
+        "teacher"
+      ],
+      "definition": "change is related to teacher people and child in daily life"
+    },
+    {
+      "id": "morning",
+      "freqRank": 90,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "back",
+        "health",
+        "president"
+      ],
+      "outgoingNeighbors": [
+        "force",
+        "time",
+        "world"
+      ],
+      "definition": "morning is related to force time and world in daily life"
+    },
+    {
+      "id": "reason",
+      "freqRank": 91,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "parent",
+        "person",
+        "team"
+      ],
+      "outgoingNeighbors": [
+        "education",
+        "school",
+        "year"
+      ],
+      "definition": "reason is related to education year and school in daily life"
+    },
+    {
+      "id": "research",
+      "freqRank": 92,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "art",
+        "face",
+        "minute"
+      ],
+      "outgoingNeighbors": [
+        "information",
+        "problem",
+        "study"
+      ],
+      "definition": "careful study to discover new information and explain a problem"
+    },
+    {
+      "id": "girl",
+      "freqRank": 93,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "idea",
+        "others",
+        "war"
+      ],
+      "outgoingNeighbors": [
+        "family",
+        "thing",
+        "word"
+      ],
+      "definition": "girl is related to word thing and family in daily life"
+    },
+    {
+      "id": "guy",
+      "freqRank": 94,
+      "inDegree": 2,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "kid",
+        "level"
+      ],
+      "outgoingNeighbors": [
+        "man",
+        "student",
+        "system"
+      ],
+      "definition": "guy is related to system man and student in daily life"
+    },
+    {
+      "id": "moment",
+      "freqRank": 95,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "body",
+        "office",
+        "party"
+      ],
+      "outgoingNeighbors": [
+        "communication",
+        "group",
+        "woman"
+      ],
+      "definition": "moment is related to communication woman and group in daily life"
+    },
+    {
+      "id": "air",
+      "freqRank": 96,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "door",
+        "information",
+        "result"
+      ],
+      "outgoingNeighbors": [
+        "child",
+        "country",
+        "people"
+      ],
+      "definition": "air is related to people child and country in daily life"
+    },
+    {
+      "id": "teacher",
+      "freqRank": 97,
+      "inDegree": 4,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "back",
+        "change",
+        "education",
+        "health"
+      ],
+      "outgoingNeighbors": [
+        "problem",
+        "time",
+        "world"
+      ],
+      "definition": "teacher is related to time world and problem in daily life"
+    },
+    {
+      "id": "force",
+      "freqRank": 98,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "morning",
+        "parent",
+        "person"
+      ],
+      "outgoingNeighbors": [
+        "hand",
+        "school",
+        "year"
+      ],
+      "definition": "force is related to year school and hand in daily life"
+    },
+    {
+      "id": "education",
+      "freqRank": 99,
+      "inDegree": 3,
+      "outDegree": 3,
+      "incomingNeighbors": [
+        "art",
+        "face",
+        "reason"
+      ],
+      "outgoingNeighbors": [
+        "student",
+        "study",
+        "teacher"
+      ],
+      "definition": "a process of study where teacher and student build knowledge"
+    }
+  ],
+  "links": [
+    {
+      "source": "language",
+      "target": "system"
+    },
+    {
+      "source": "language",
+      "target": "communication"
+    },
+    {
+      "source": "language",
+      "target": "people"
+    },
+    {
+      "source": "word",
+      "target": "language"
+    },
+    {
+      "source": "word",
+      "target": "communication"
+    },
+    {
+      "source": "system",
+      "target": "work"
+    },
+    {
+      "source": "communication",
+      "target": "information"
+    },
+    {
+      "source": "communication",
+      "target": "people"
+    },
+    {
+      "source": "people",
+      "target": "world"
+    },
+    {
+      "source": "people",
+      "target": "problem"
+    },
+    {
+      "source": "people",
+      "target": "program"
+    },
+    {
+      "source": "time",
+      "target": "school"
+    },
+    {
+      "source": "time",
+      "target": "hand"
+    },
+    {
+      "source": "time",
+      "target": "question"
+    },
+    {
+      "source": "year",
+      "target": "state"
+    },
+    {
+      "source": "year",
+      "target": "part"
+    },
+    {
+      "source": "year",
+      "target": "work"
+    },
+    {
+      "source": "day",
+      "target": "family"
+    },
+    {
+      "source": "day",
+      "target": "place"
+    },
+    {
+      "source": "day",
+      "target": "government"
+    },
+    {
+      "source": "thing",
+      "target": "student"
+    },
+    {
+      "source": "thing",
+      "target": "case"
+    },
+    {
+      "source": "thing",
+      "target": "number"
+    },
+    {
+      "source": "man",
+      "target": "group"
+    },
+    {
+      "source": "man",
+      "target": "week"
+    },
+    {
+      "source": "man",
+      "target": "night"
+    },
+    {
+      "source": "woman",
+      "target": "country"
+    },
+    {
+      "source": "woman",
+      "target": "company"
+    },
+    {
+      "source": "woman",
+      "target": "point"
+    },
+    {
+      "source": "child",
+      "target": "problem"
+    },
+    {
+      "source": "child",
+      "target": "program"
+    },
+    {
+      "source": "child",
+      "target": "home"
+    },
+    {
+      "source": "world",
+      "target": "hand"
+    },
+    {
+      "source": "world",
+      "target": "question"
+    },
+    {
+      "source": "world",
+      "target": "water"
+    },
+    {
+      "source": "school",
+      "target": "part"
+    },
+    {
+      "source": "school",
+      "target": "work"
+    },
+    {
+      "source": "school",
+      "target": "room"
+    },
+    {
+      "source": "state",
+      "target": "place"
+    },
+    {
+      "source": "state",
+      "target": "government"
+    },
+    {
+      "source": "state",
+      "target": "mother"
+    },
+    {
+      "source": "family",
+      "target": "case"
+    },
+    {
+      "source": "family",
+      "target": "number"
+    },
+    {
+      "source": "family",
+      "target": "area"
+    },
+    {
+      "source": "student",
+      "target": "week"
+    },
+    {
+      "source": "student",
+      "target": "night"
+    },
+    {
+      "source": "student",
+      "target": "money"
+    },
+    {
+      "source": "group",
+      "target": "company"
+    },
+    {
+      "source": "group",
+      "target": "point"
+    },
+    {
+      "source": "group",
+      "target": "story"
+    },
+    {
+      "source": "country",
+      "target": "program"
+    },
+    {
+      "source": "country",
+      "target": "home"
+    },
+    {
+      "source": "country",
+      "target": "fact"
+    },
+    {
+      "source": "problem",
+      "target": "question"
+    },
+    {
+      "source": "problem",
+      "target": "water"
+    },
+    {
+      "source": "problem",
+      "target": "month"
+    },
+    {
+      "source": "hand",
+      "target": "work"
+    },
+    {
+      "source": "hand",
+      "target": "room"
+    },
+    {
+      "source": "hand",
+      "target": "lot"
+    },
+    {
+      "source": "part",
+      "target": "government"
+    },
+    {
+      "source": "part",
+      "target": "mother"
+    },
+    {
+      "source": "part",
+      "target": "right"
+    },
+    {
+      "source": "place",
+      "target": "number"
+    },
+    {
+      "source": "place",
+      "target": "area"
+    },
+    {
+      "source": "place",
+      "target": "study"
+    },
+    {
+      "source": "case",
+      "target": "night"
+    },
+    {
+      "source": "case",
+      "target": "money"
+    },
+    {
+      "source": "case",
+      "target": "book"
+    },
+    {
+      "source": "week",
+      "target": "point"
+    },
+    {
+      "source": "week",
+      "target": "story"
+    },
+    {
+      "source": "week",
+      "target": "eye"
+    },
+    {
+      "source": "company",
+      "target": "home"
+    },
+    {
+      "source": "company",
+      "target": "fact"
+    },
+    {
+      "source": "company",
+      "target": "job"
+    },
+    {
+      "source": "program",
+      "target": "water"
+    },
+    {
+      "source": "program",
+      "target": "month"
+    },
+    {
+      "source": "program",
+      "target": "business"
+    },
+    {
+      "source": "question",
+      "target": "room"
+    },
+    {
+      "source": "question",
+      "target": "lot"
+    },
+    {
+      "source": "question",
+      "target": "issue"
+    },
+    {
+      "source": "work",
+      "target": "mother"
+    },
+    {
+      "source": "work",
+      "target": "right"
+    },
+    {
+      "source": "work",
+      "target": "side"
+    },
+    {
+      "source": "government",
+      "target": "group"
+    },
+    {
+      "source": "government",
+      "target": "people"
+    },
+    {
+      "source": "government",
+      "target": "power"
+    },
+    {
+      "source": "government",
+      "target": "law"
+    },
+    {
+      "source": "government",
+      "target": "country"
+    },
+    {
+      "source": "number",
+      "target": "money"
+    },
+    {
+      "source": "number",
+      "target": "book"
+    },
+    {
+      "source": "number",
+      "target": "head"
+    },
+    {
+      "source": "night",
+      "target": "story"
+    },
+    {
+      "source": "night",
+      "target": "eye"
+    },
+    {
+      "source": "night",
+      "target": "house"
+    },
+    {
+      "source": "point",
+      "target": "fact"
+    },
+    {
+      "source": "point",
+      "target": "job"
+    },
+    {
+      "source": "point",
+      "target": "service"
+    },
+    {
+      "source": "home",
+      "target": "month"
+    },
+    {
+      "source": "home",
+      "target": "business"
+    },
+    {
+      "source": "home",
+      "target": "friend"
+    },
+    {
+      "source": "water",
+      "target": "lot"
+    },
+    {
+      "source": "water",
+      "target": "issue"
+    },
+    {
+      "source": "water",
+      "target": "power"
+    },
+    {
+      "source": "room",
+      "target": "right"
+    },
+    {
+      "source": "room",
+      "target": "side"
+    },
+    {
+      "source": "room",
+      "target": "hour"
+    },
+    {
+      "source": "mother",
+      "target": "study"
+    },
+    {
+      "source": "mother",
+      "target": "kind"
+    },
+    {
+      "source": "mother",
+      "target": "game"
+    },
+    {
+      "source": "area",
+      "target": "book"
+    },
+    {
+      "source": "area",
+      "target": "head"
+    },
+    {
+      "source": "area",
+      "target": "line"
+    },
+    {
+      "source": "money",
+      "target": "eye"
+    },
+    {
+      "source": "money",
+      "target": "house"
+    },
+    {
+      "source": "money",
+      "target": "end"
+    },
+    {
+      "source": "story",
+      "target": "job"
+    },
+    {
+      "source": "story",
+      "target": "service"
+    },
+    {
+      "source": "story",
+      "target": "member"
+    },
+    {
+      "source": "fact",
+      "target": "business"
+    },
+    {
+      "source": "fact",
+      "target": "friend"
+    },
+    {
+      "source": "fact",
+      "target": "law"
+    },
+    {
+      "source": "month",
+      "target": "issue"
+    },
+    {
+      "source": "month",
+      "target": "power"
+    },
+    {
+      "source": "month",
+      "target": "car"
+    },
+    {
+      "source": "lot",
+      "target": "side"
+    },
+    {
+      "source": "lot",
+      "target": "hour"
+    },
+    {
+      "source": "lot",
+      "target": "city"
+    },
+    {
+      "source": "right",
+      "target": "kind"
+    },
+    {
+      "source": "right",
+      "target": "game"
+    },
+    {
+      "source": "right",
+      "target": "community"
+    },
+    {
+      "source": "study",
+      "target": "head"
+    },
+    {
+      "source": "study",
+      "target": "line"
+    },
+    {
+      "source": "study",
+      "target": "name"
+    },
+    {
+      "source": "book",
+      "target": "house"
+    },
+    {
+      "source": "book",
+      "target": "end"
+    },
+    {
+      "source": "book",
+      "target": "president"
+    },
+    {
+      "source": "eye",
+      "target": "service"
+    },
+    {
+      "source": "eye",
+      "target": "member"
+    },
+    {
+      "source": "eye",
+      "target": "team"
+    },
+    {
+      "source": "job",
+      "target": "friend"
+    },
+    {
+      "source": "job",
+      "target": "law"
+    },
+    {
+      "source": "job",
+      "target": "minute"
+    },
+    {
+      "source": "business",
+      "target": "work"
+    },
+    {
+      "source": "business",
+      "target": "service"
+    },
+    {
+      "source": "business",
+      "target": "money"
+    },
+    {
+      "source": "issue",
+      "target": "hour"
+    },
+    {
+      "source": "issue",
+      "target": "city"
+    },
+    {
+      "source": "issue",
+      "target": "kid"
+    },
+    {
+      "source": "side",
+      "target": "game"
+    },
+    {
+      "source": "side",
+      "target": "community"
+    },
+    {
+      "source": "side",
+      "target": "body"
+    },
+    {
+      "source": "kind",
+      "target": "line"
+    },
+    {
+      "source": "kind",
+      "target": "name"
+    },
+    {
+      "source": "kind",
+      "target": "information"
+    },
+    {
+      "source": "head",
+      "target": "end"
+    },
+    {
+      "source": "head",
+      "target": "president"
+    },
+    {
+      "source": "head",
+      "target": "back"
+    },
+    {
+      "source": "house",
+      "target": "member"
+    },
+    {
+      "source": "house",
+      "target": "team"
+    },
+    {
+      "source": "house",
+      "target": "parent"
+    },
+    {
+      "source": "service",
+      "target": "law"
+    },
+    {
+      "source": "service",
+      "target": "minute"
+    },
+    {
+      "source": "service",
+      "target": "face"
+    },
+    {
+      "source": "friend",
+      "target": "car"
+    },
+    {
+      "source": "friend",
+      "target": "idea"
+    },
+    {
+      "source": "friend",
+      "target": "others"
+    },
+    {
+      "source": "power",
+      "target": "city"
+    },
+    {
+      "source": "power",
+      "target": "kid"
+    },
+    {
+      "source": "power",
+      "target": "level"
+    },
+    {
+      "source": "hour",
+      "target": "community"
+    },
+    {
+      "source": "hour",
+      "target": "body"
+    },
+    {
+      "source": "hour",
+      "target": "office"
+    },
+    {
+      "source": "game",
+      "target": "name"
+    },
+    {
+      "source": "game",
+      "target": "information"
+    },
+    {
+      "source": "game",
+      "target": "door"
+    },
+    {
+      "source": "line",
+      "target": "president"
+    },
+    {
+      "source": "line",
+      "target": "back"
+    },
+    {
+      "source": "line",
+      "target": "health"
+    },
+    {
+      "source": "end",
+      "target": "team"
+    },
+    {
+      "source": "end",
+      "target": "parent"
+    },
+    {
+      "source": "end",
+      "target": "person"
+    },
+    {
+      "source": "member",
+      "target": "minute"
+    },
+    {
+      "source": "member",
+      "target": "face"
+    },
+    {
+      "source": "member",
+      "target": "art"
+    },
+    {
+      "source": "law",
+      "target": "idea"
+    },
+    {
+      "source": "law",
+      "target": "others"
+    },
+    {
+      "source": "law",
+      "target": "war"
+    },
+    {
+      "source": "car",
+      "target": "kid"
+    },
+    {
+      "source": "car",
+      "target": "level"
+    },
+    {
+      "source": "car",
+      "target": "history"
+    },
+    {
+      "source": "city",
+      "target": "body"
+    },
+    {
+      "source": "city",
+      "target": "office"
+    },
+    {
+      "source": "city",
+      "target": "party"
+    },
+    {
+      "source": "community",
+      "target": "group"
+    },
+    {
+      "source": "community",
+      "target": "people"
+    },
+    {
+      "source": "community",
+      "target": "place"
+    },
+    {
+      "source": "community",
+      "target": "work"
+    },
+    {
+      "source": "name",
+      "target": "back"
+    },
+    {
+      "source": "name",
+      "target": "health"
+    },
+    {
+      "source": "name",
+      "target": "change"
+    },
+    {
+      "source": "president",
+      "target": "parent"
+    },
+    {
+      "source": "president",
+      "target": "person"
+    },
+    {
+      "source": "president",
+      "target": "morning"
+    },
+    {
+      "source": "team",
+      "target": "face"
+    },
+    {
+      "source": "team",
+      "target": "art"
+    },
+    {
+      "source": "team",
+      "target": "reason"
+    },
+    {
+      "source": "minute",
+      "target": "others"
+    },
+    {
+      "source": "minute",
+      "target": "war"
+    },
+    {
+      "source": "minute",
+      "target": "research"
+    },
+    {
+      "source": "idea",
+      "target": "level"
+    },
+    {
+      "source": "idea",
+      "target": "history"
+    },
+    {
+      "source": "idea",
+      "target": "girl"
+    },
+    {
+      "source": "kid",
+      "target": "office"
+    },
+    {
+      "source": "kid",
+      "target": "party"
+    },
+    {
+      "source": "kid",
+      "target": "guy"
+    },
+    {
+      "source": "body",
+      "target": "door"
+    },
+    {
+      "source": "body",
+      "target": "result"
+    },
+    {
+      "source": "body",
+      "target": "moment"
+    },
+    {
+      "source": "information",
+      "target": "health"
+    },
+    {
+      "source": "information",
+      "target": "change"
+    },
+    {
+      "source": "information",
+      "target": "air"
+    },
+    {
+      "source": "back",
+      "target": "person"
+    },
+    {
+      "source": "back",
+      "target": "morning"
+    },
+    {
+      "source": "back",
+      "target": "teacher"
+    },
+    {
+      "source": "parent",
+      "target": "art"
+    },
+    {
+      "source": "parent",
+      "target": "reason"
+    },
+    {
+      "source": "parent",
+      "target": "force"
+    },
+    {
+      "source": "face",
+      "target": "war"
+    },
+    {
+      "source": "face",
+      "target": "research"
+    },
+    {
+      "source": "face",
+      "target": "education"
+    },
+    {
+      "source": "others",
+      "target": "history"
+    },
+    {
+      "source": "others",
+      "target": "girl"
+    },
+    {
+      "source": "others",
+      "target": "language"
+    },
+    {
+      "source": "level",
+      "target": "party"
+    },
+    {
+      "source": "level",
+      "target": "guy"
+    },
+    {
+      "source": "level",
+      "target": "word"
+    },
+    {
+      "source": "office",
+      "target": "result"
+    },
+    {
+      "source": "office",
+      "target": "moment"
+    },
+    {
+      "source": "office",
+      "target": "system"
+    },
+    {
+      "source": "door",
+      "target": "change"
+    },
+    {
+      "source": "door",
+      "target": "air"
+    },
+    {
+      "source": "door",
+      "target": "communication"
+    },
+    {
+      "source": "health",
+      "target": "morning"
+    },
+    {
+      "source": "health",
+      "target": "teacher"
+    },
+    {
+      "source": "health",
+      "target": "people"
+    },
+    {
+      "source": "person",
+      "target": "reason"
+    },
+    {
+      "source": "person",
+      "target": "force"
+    },
+    {
+      "source": "person",
+      "target": "time"
+    },
+    {
+      "source": "art",
+      "target": "research"
+    },
+    {
+      "source": "art",
+      "target": "education"
+    },
+    {
+      "source": "art",
+      "target": "year"
+    },
+    {
+      "source": "war",
+      "target": "girl"
+    },
+    {
+      "source": "war",
+      "target": "language"
+    },
+    {
+      "source": "war",
+      "target": "day"
+    },
+    {
+      "source": "history",
+      "target": "story"
+    },
+    {
+      "source": "history",
+      "target": "country"
+    },
+    {
+      "source": "history",
+      "target": "world"
+    },
+    {
+      "source": "party",
+      "target": "moment"
+    },
+    {
+      "source": "party",
+      "target": "system"
+    },
+    {
+      "source": "party",
+      "target": "man"
+    },
+    {
+      "source": "result",
+      "target": "air"
+    },
+    {
+      "source": "result",
+      "target": "communication"
+    },
+    {
+      "source": "result",
+      "target": "woman"
+    },
+    {
+      "source": "change",
+      "target": "teacher"
+    },
+    {
+      "source": "change",
+      "target": "people"
+    },
+    {
+      "source": "change",
+      "target": "child"
+    },
+    {
+      "source": "morning",
+      "target": "force"
+    },
+    {
+      "source": "morning",
+      "target": "time"
+    },
+    {
+      "source": "morning",
+      "target": "world"
+    },
+    {
+      "source": "reason",
+      "target": "education"
+    },
+    {
+      "source": "reason",
+      "target": "year"
+    },
+    {
+      "source": "reason",
+      "target": "school"
+    },
+    {
+      "source": "research",
+      "target": "study"
+    },
+    {
+      "source": "research",
+      "target": "information"
+    },
+    {
+      "source": "research",
+      "target": "problem"
+    },
+    {
+      "source": "girl",
+      "target": "word"
+    },
+    {
+      "source": "girl",
+      "target": "thing"
+    },
+    {
+      "source": "girl",
+      "target": "family"
+    },
+    {
+      "source": "guy",
+      "target": "system"
+    },
+    {
+      "source": "guy",
+      "target": "man"
+    },
+    {
+      "source": "guy",
+      "target": "student"
+    },
+    {
+      "source": "moment",
+      "target": "communication"
+    },
+    {
+      "source": "moment",
+      "target": "woman"
+    },
+    {
+      "source": "moment",
+      "target": "group"
+    },
+    {
+      "source": "air",
+      "target": "people"
+    },
+    {
+      "source": "air",
+      "target": "child"
+    },
+    {
+      "source": "air",
+      "target": "country"
+    },
+    {
+      "source": "teacher",
+      "target": "time"
+    },
+    {
+      "source": "teacher",
+      "target": "world"
+    },
+    {
+      "source": "teacher",
+      "target": "problem"
+    },
+    {
+      "source": "force",
+      "target": "year"
+    },
+    {
+      "source": "force",
+      "target": "school"
+    },
+    {
+      "source": "force",
+      "target": "hand"
+    },
+    {
+      "source": "education",
+      "target": "study"
+    },
+    {
+      "source": "education",
+      "target": "teacher"
+    },
+    {
+      "source": "education",
+      "target": "student"
+    }
+  ]
+}
